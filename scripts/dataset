@@ -1,0 +1,12 @@
+#!/bin/bash
+
+ZIP_FILE="halo-cleaned.zip"
+
+# download the dataset using Kaggle API
+kaggle datasets download -d marianatio/halo-bisindo-cleaned -p .
+
+# extract the downloaded zip file to the parent directory
+unzip -o "$ZIP_FILE" -d ./
+
+# remove the zip file after extraction
+rm "$ZIP_FILE"

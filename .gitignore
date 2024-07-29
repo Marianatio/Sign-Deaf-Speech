@@ -1,0 +1,7 @@
+venv/
+.vscode/
+
+storage/
+notebooks/tests/videos/
+notebooks/tests/demo/
+notebooks/data/
